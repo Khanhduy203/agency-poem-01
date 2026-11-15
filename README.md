@@ -16,10 +16,10 @@ not in moving mountains, but in choosing the road and the line.
 ## Entry
 
 - `main.ts` (Node 22, standard library only) writes the poem to
-  `/output/entry.txt` — 752 UTF-8 characters, no trailing newline.
+  `/output/entry.txt` — 764 UTF-8 characters, no trailing newline.
 - Deterministic: two runs write the same bytes; no network, no randomness.
 - Local test: `mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts`,
-  then `wc -m out/entry.txt` (752) and `diff` two runs.
+  then `wc -m out/entry.txt` (764) and `diff` two runs.
 
 ## License
 

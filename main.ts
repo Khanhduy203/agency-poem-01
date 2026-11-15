@@ -1,7 +1,7 @@
 // agency-poem-01 — "The Hand That Chooses"
 // Writes one fixed poem about agency to /output/entry.txt.
 // Deterministic: two runs write the same bytes; no network, no randomness.
-// The poem is 752 characters (gate: 1 to 1,000), UTF-8, no trailing newline.
+// The poem is 764 characters (gate: 1 to 1,000), UTF-8, no trailing newline.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
